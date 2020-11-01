@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+    font-family: serif;
+}
+nav {
+    margin: 20px 0;
+    text-align: right;
+    padding-right: 100px;
+    
+}
+
+nav a{
+    display: inline-block;
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #555;
+    padding: 10px;
+    margin: 0 40px 0 20px;
+}
+nav a:hover {
+    border-bottom: 2px solid #555;
+    color: #222;
+}
+
+nav a.reservation {
+    border-bottom: 2px solid white;
+}
+nav a.reservation:hover {
+    border-bottom: 2px solid #222;
+}
+header {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../zdjęcia/phone-499991_1920.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+header h1 {
+    font-size: 6rem;
+    color: white;
+    text-align: center;
+    line-height: 100vh;
+    background-color:rgba(0,0,0,50%);
+}
+
+
+section {
+    height: 100vh;
+    width: 100vw;
+    background-color: #ddd;
+}
+
+.wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between ;
+    margin-left: 20vw;
+    margin-top: 20vh;
+    font-family: 'saira', sans-serif;
+    font-size: 12px;
+    padding: 15px;
+    position: absolute;
+}
+.wrap input {
+    display: block;
+    padding:10px;
+    width: 40vh;
+}
+
+
+.wrap textarea {
+    height: 30vh;
+    width:60vh;
+}
+
+.wrap button {
+    font-size: 20px;
+    position: absolute;
+    top: 47vh;
+    left:18vw;
+}
+
+
+div.social img {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+    margin-left: 3vw;
+    margin-bottom: 3vw;
+    height: 2%;
+    
+}
+
+.socials span {
+    display: flex;
+    flex-direction: column;
+    margin: -15vh 0 5vh 20vh;
+    font-size: 25px;
+
+}
+footer {
+    background-color: #444;
+    color:white ;
+    text-align: center;
+    padding:10px 0 ;
+    font-size: 15px;
+    width: 95vw;
+    margin-left: 2.5vw;
+ }
+
+
+
+
+

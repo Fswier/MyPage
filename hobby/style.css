@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+    font-family: serif;
+}
+nav {
+    margin: 20px 0;
+    text-align: right;
+    padding-right: 100px;
+}
+
+nav a{
+    display: inline-block;
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #555;
+    padding: 10px;
+    margin: 0 40px 0 20px;
+}
+nav a:hover {
+    border-bottom: 2px solid #555;
+    color: #222;
+}
+
+nav a.reservation {
+    border-bottom: 2px solid white;
+}
+nav a.reservation:hover {
+    border-bottom: 2px solid #222;
+}
+header {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../zdjęcia/football-488714_1920.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header h1 {
+    font-size: 6rem;
+    color: white;
+    text-align: center;
+    line-height: 100vh;
+    background-color:rgba(0,0,0,50%);
+}
+section.info{
+    display: flex;
+    margin-top: 50px;
+    height: 100vh;
+    width: 95vw;
+    margin-left: 2.5vw;
+    box-shadow: 0 0 10px grey;
+}
+
+div p { 
+    text-align: center;
+    margin-left: 30px;
+    margin-top: 30vh;
+    font-size: 50px;
+}
+
+section.info div img {
+    padding:5vh 0 ;
+    height:100vh;
+}
+
+section.more {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 95vw;
+    margin-left: 2.5vw;
+}
+
+section.more div {
+    height: 33vh;
+}
+
+div.first {
+    padding:10px 0;
+    display: flex;
+    height: 33vh;
+    box-shadow: 0 0 10px black;
+}
+
+div.first h2 {
+    margin-top: 40px;
+   text-align: center;
+   font-size: 28px;
+
+}
+
+div.first img {
+    background-size: cover;
+    height: 30vh;
+}
+
+
+div.second {
+    padding: 10px 0;
+    display: flex;
+    /* margin-top: 20px; */
+    height: 33vh;
+    box-shadow: 0 0 10px black;
+}
+
+
+div.second img {
+    background-size: cover;
+    height:30vh;
+}
+div.second h2 {
+    margin-top: 40px;
+   text-align: center;
+   font-size: 28px;
+}
+
+div.third {
+    display: flex;
+    /* margin-top: 20px; */
+    height: 33vh;
+    padding:10px 0;
+    box-shadow: 0 0 10px black;
+}
+
+
+div.third img {
+    background-size: cover;
+    flex-basis: 30%;
+    height: 30vh;
+}
+div.third h2 {
+    margin-top: 20px;
+   text-align: center;
+   font-size: 28px;
+}
+
+footer {
+   background-color: #444;
+   color:white ;
+   text-align: center;
+   padding:10px 0 ;
+   font-size: 15px;
+   width: 95vw;
+   margin-left: 2.5vw;
+}
