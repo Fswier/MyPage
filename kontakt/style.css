@@ -6,7 +6,7 @@
 
 html {
     font-size: 10px;
-    font-family: serif;
+    font-family: sans-serif;
 }
 nav {
     margin: 20px 0;
@@ -74,19 +74,36 @@ section {
     display: block;
     padding:10px;
     width: 40vh;
+    font-style: italic;
+    
 }
 
 
 .wrap textarea {
     height: 30vh;
     width:60vh;
+    padding: 10px;
+    font-style: italic;
+    font-size: 14px;
 }
 
 .wrap button {
-    font-size: 20px;
+    font-size: 30px;
     position: absolute;
     top: 47vh;
-    left:18vw;
+    left:23vw;
+    background-color:white;
+    color: black;
+    border: 1px solid black;
+    border-radius: 5%;
+    padding: 5px;
+}
+
+.wrap button:hover {
+    color:white;
+    background-color: black;
+    border: 2px solid white;
+    transition: .5s;
 }
 
 
@@ -105,8 +122,19 @@ div.social img {
     flex-direction: column;
     margin: -15vh 0 5vh 20vh;
     font-size: 25px;
-
 }
+
+.socials span a {
+    text-decoration: none;
+    color: black;
+}
+
+.socials span a:hover {
+    color: blue;
+    transform: .5s;
+}
+
+
 footer {
     background-color: #444;
     color:white ;
